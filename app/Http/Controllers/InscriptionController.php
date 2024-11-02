@@ -2,8 +2,9 @@
 
 namespace App\Http\Controllers;
 
-use App\Mail\InscriptionMail;
+use App\Mail\ContactMail;
 use Illuminate\Http\Request;
+use App\Mail\InscriptionMail;
 use Illuminate\Support\Facades\Mail;
 
 class InscriptionController extends Controller
@@ -55,5 +56,26 @@ class InscriptionController extends Controller
     return redirect()->back()->with('success', 'Inscription réussie. Un email de confirmation a été envoyé.');
 }
 
+public function sendContactForm(Request $request)
+    {
+        // Validation des données
+        $request->validate([
+            'name' => 'required|string|max:255',
+            'email' => 'required|email',
+            'message' => 'required|string',
+        ]);
+
+        // Envoi de l'e-mail
+        $data = [
+            'name' => $request->input('name'),
+            'email' => $request->input('email'),
+            'message' => $request->input('message')
+        ];
+
+        Mail::to('contact@site.com')->send(new ContactMail($data));
+
+        // Redirection avec message de confirmation
+        return redirect()->back()->with('success', 'Votre message a été envoyé avec succès !');
+    }
 
 }

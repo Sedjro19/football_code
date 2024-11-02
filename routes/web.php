@@ -30,6 +30,7 @@ Route::get('/inscription', function () {
     return view('inscription');
 })->name('inscription');
 Route::post('/inscription', [InscriptionController::class, 'store'])->name('inscription.store');
+Route::post('/contact', [InscriptionController::class, 'sendContactForm'])->name('contact.send');
 Route::get('/privacy', function () {
     return view('privacy');
 })->name('privacy');
