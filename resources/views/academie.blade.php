@@ -251,7 +251,7 @@
 <div class="container">
     <h3 class="border-bottom">Nos managers</h3>
     <div class="row g-0 ">
-        <div class="col-md-4 mb-md-2 ">
+        <div class="col-md-4  ">
             <div class="card h-100 " >
                 <img src="images/ma1.jpeg" class="card-img-top" alt="...">
                 <div class="card-body">
@@ -268,7 +268,7 @@
             </div>
         </div>
         <div class="col-md-4">
-            <div class="card ms-md-2 " >
+            <div class="card h-100 ms-md-2 " >
                 <img src="images/ma2.jpeg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <p class="card-title"> Amza Joseph Diabagate </p>
@@ -282,7 +282,7 @@
             </div>
         </div>
         <div class="col-md-4">
-            <div class="card ms-md-2  " >
+            <div class="card h-100 ms-md-2  " >
                 <img src="images/ma3.jpeg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <p class="card-title"> ADI Paul</p>
@@ -295,17 +295,30 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-4 mb-md-2">
-            <div class="card  " >
+        <div class="col-md-4 mb-md-2 mt-2 ">
+            <div class="card h-100   " >
                 <img src="images/ma4.jpeg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <p class="card-title"> KABORÉ Ousmane</p>
                     <p class="card-title">Né le 28/10/1969 au Burkina faso </p>
                     <p class="card-title">Métier: entraîneur & manager.</p>
                     <p class="card-title">tel: +22897880315</p>
-                    <p class="card-text">
-                        En collaboration avec la fédération de française depuis plus de 15 ans</p>
+                  
 
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 mb-md-2 ms-md-2 mt-2">
+            <div class="card h-100  " >
+                <img src="images/ma5.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-title">  Gerard  Ouedraogo</p>
+                    <p class="card-title">Né le 12/02/1980 au Burkina faso </p>
+                    <p class="card-title">Métier: COACH MANAGER & Entraîneur .</p>
+                    <p class="card-title">tel: +22871952427</p>
+                    <p class="card-text" >En collaboration avec la fédération Française.</p>
+                  
                 </div>
             </div>
         </div>

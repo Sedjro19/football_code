@@ -44,9 +44,9 @@
                         <div class="card-text">Améliorez vos compétences techniques avec nos entraîneurs spécialisés, à travers des exercices ciblés et des sessions sur le terrain.</div>
                     </div>
                 </div>
-            </div>    
-                <!-- end of card -->
-                <div class="col-md-4">
+            </div>
+            <!-- end of card -->
+            <div class="col-md-4">
                 <!-- Card -->
                 <div class="card">
                     <div class="card-icon">
@@ -57,9 +57,9 @@
                         <div class="card-text">Participez à des matchs d'exhibition pour mettre en pratique vos compétences et vous mesurer à d'autres équipes.</div>
                     </div>
                 </div>
-            </div>    
-                <!-- end of card -->
-                <div class="col-md-4">
+            </div>
+            <!-- end of card -->
+            <div class="col-md-4">
                 <!-- Card -->
                 <div class="card">
                     <div class="card-icon">
@@ -70,10 +70,10 @@
                         <div class="card-text">Améliorez votre condition physique grâce à des séances d'entraînement personnalisées adaptées à votre âge et niveau.</div>
                     </div>
                 </div>
-            </div>    
-                <!-- end of card -->
+            </div>
+            <!-- end of card -->
 
-          
+
         </div> <!-- end of row -->
     </div> <!-- end of container -->
 </div> <!-- end of cards-1 -->
@@ -123,6 +123,58 @@
     </div> <!-- end of container -->
 </div>
 <!-- end of services 2 -->
+
+<div class="container">
+
+<p> l'Académie a reçu des jeunes de 58 nationalités différentes : d'Afrique du Sud, Algérie, Allemagne, Benin, Niger, Burkina-faso, Angleterre, Arabie Saoudite, Australie, Bahrein, Belgique, Bermudes, Bolivie, Brésil, Canada, Chypre, Colombie,
+Congo,
+Côte d'Ivoire, Danemark, Emirats Arabes Unis, Espagne, Ethiopie, France, Gabon, Ghana,
+Guinée, cameroun, tchad, Inde, Indonésie, Irlande, Kenya, Kirgisztan, Laos, Liban,
+Libye, Luxembourg, Madagascar, Malaisie,
+Mali, Maroc, Maurice, Mexique, Monaco, Nigéria, Russie, Sénégal, Suisse,
+Togo, Trinidad et Tobago, Tunisie, Uganda, USA, Venezuela, Zambie, Zimbabwe, de Nouvelle Calédonie (F) et de Tahiti (F). </p>
+
+<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/ca1.jpeg" class="d-block w-100" alt="images/ca1.jpeg">
+    
+    </div>
+    <div class="carousel-item">
+      <img src="images/ca2.jpeg" class="d-block w-100" alt="images/ca1.jpeg">
+    
+    </div>
+    <div class="carousel-item">
+      <img src="images/ca3.jpeg" class="d-block w-100" alt="images/ca1.jpeg">
+    
+    </div>
+    <div class="carousel-item">
+      <img src="images/ca4.jpeg" class="d-block w-100" alt="images/ca1.jpeg">
+      
+    </div>
+    <div class="carousel-item">
+      <img src="images/ca5.jpeg" class="d-block w-100" alt="images/ca1.jpeg">
+      
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+</div>
 
 <!-- Condition d'inscrition-->
 <div class="container my-5">
@@ -240,15 +292,15 @@
                 <!-- Counter -->
                 <div class="counter-container">
                     <div class="counter-cell">
-                        <div data-purecounter-start="0" data-purecounter-end="80" data-purecounter-duration="3" class="purecounter">1</div>
+                        <div data-purecounter-start="0" data-purecounter-end="1500" data-purecounter-duration="3" class="purecounter">1</div>
                         <div class="counter-info">Afrique</div>
                     </div> <!-- end of counter-cell -->
                     <div class="counter-cell">
-                        <div data-purecounter-start="0" data-purecounter-end="35" data-purecounter-duration="1.5" class="purecounter">1</div>
+                        <div data-purecounter-start="0" data-purecounter-end="3000" data-purecounter-duration="1.5" class="purecounter">1</div>
                         <div class="counter-info">Europe</div>
                     </div> <!-- end of counter-cell -->
                     <div class="counter-cell">
-                        <div data-purecounter-start="0" data-purecounter-end="50" data-purecounter-duration="3" class="purecounter">1</div>
+                        <div data-purecounter-start="0" data-purecounter-end="1100" data-purecounter-duration="3" class="purecounter">1</div>
                         <div class="counter-info">Asie</div>
                     </div> <!-- end of counter-cell -->
                 </div> <!-- end of counter-container -->
@@ -262,19 +314,19 @@
 
 <style>
     video {
-    width: 100%;
-    max-width: 100%;
-}
-.rows {
-    margin-left: -15px;
-    margin-right: -15px;
-}
+        width: 100%;
+        max-width: 100%;
+    }
 
-.colmd6 {
-    padding-left: 15px;
-    padding-right: 15px;
-}
+    .rows {
+        margin-left: -15px;
+        margin-right: -15px;
+    }
 
+    .colmd6 {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
 </style>
 
 <div class="container ">

@@ -9,7 +9,7 @@
     <div class="container">
         <div class="row">
             <div class="col-xl-10 offset-xl-1">
-                <h1>Article Details</h1>
+                <h1>Nous contactez</h1>
             </div>
         </div>
     </div>
@@ -21,7 +21,7 @@
         <div class="row">
             <div class="col-lg-12">
                 <h2 class="h2-heading">Contact details</h2>
-                <p class="p-heading">Of will at sell well at as. Too want but tall nay like old removing yourself today</p>
+                <p class="p-heading">Nous sommes à votre écoute ! Que vous ayez une question, un commentaire ou que vous souhaitiez obtenir plus d’informations sur nos services, n’hésitez pas à nous contacter.</p>
                 <ul class="list-unstyled li-space-lg">
                     <li><i class="fas fa-map-marker-alt"></i> &nbsp;22 Innovative, San Francisco, CA 94043, US</li>
                     <li><i class="fas fa-phone"></i> &nbsp;<a href="tel:00817202212">+33755247975</a></li>
@@ -32,7 +32,7 @@
         <div class="row">
             <div class="col-lg-10 offset-lg-1">
 
-                <!-- Message de confirmation -->
+                <!-- Message de confirmation --> 
                 @if (session('success'))
                     <div class="alert alert-success">{{ session('success') }}</div>
                 @endif

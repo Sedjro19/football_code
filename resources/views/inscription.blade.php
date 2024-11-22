@@ -99,7 +99,7 @@
         </div>
         <div class="card-body">
             <p class="card-text">
-                Les frais d’inscription sont de <strong>120 €</strong> pour les recrutements en Afrique sponsorisés.
+                Les frais d’inscription sont de <strong>130 €</strong> pour les recrutements en Afrique sponsorisés.
             </p>
         </div>
     </div>
