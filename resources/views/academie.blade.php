@@ -262,7 +262,7 @@
                         Habite à Nantes</p>
                     <p class="card-title">tel: +33755247975</p>
                     <p class="card-text">
-                        En collaboration avec la fédération de française depuis plus de 15 ans</p>
+                        En collaboration avec la fédération de française </p>
 
                 </div>
             </div>

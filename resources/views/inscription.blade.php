@@ -53,7 +53,7 @@
 
     <!-- Alerte sur les frais d'inscription -->
     <div class="bg-success mt-4">
-        <p class="text-center text-white mb-0">Pour les recrutements promotionnels, les frais d'inscription sont à 120€ (78.000 F CFA).</p>
+        <p class="text-center text-white mb-0">Pour les recrutements promotionnels, les frais d'inscription sont à 130€ (78.000 F CFA).</p>
     </div>
 
 
